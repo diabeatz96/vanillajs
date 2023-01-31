@@ -1,10 +1,13 @@
 
 # Task 2 Basic Calculator
 
-Added Functionality to have all simple Calculator
-operations and worked on output/error handling for invalid inputs. Inputs are checked via their local error handling functions if the product they produce is false, otherwise, what they produce is true and it outputs. 
+Task 2 basic is a simple Calculator which adds, divides, multiplies, subtracts etc. 
 
+It's also provides a basic error handling system, that lets you know when you have failed to input any number or the number is NaN. 
 
+Future Improvements:
+- Check for division by zero exclusivley. 
+- Improve readability further with custom colors for each of the operators. 
 
 
 ## Tech Stack
