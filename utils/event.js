@@ -12,18 +12,18 @@ const eventHandler = () => {
 
     const updateDomWithAddedNumbers = () => {
         //result.innerHTML = parseInt(number1.value, 10) + parseInt(number2.value, 10);
-       result.innerHTML = add(number1.value , number2.value);
+       result.innerHTML = `Your sum is: ${add(number1.value , number2.value)}`;
     }
 
     const updateDomWithMultiplyNumbers = () => {
-        result.innerHTML = mult(number1.value, number2.value);
+        result.innerHTML = `Your product is: ${mult(number1.value, number2.value)}`;
     }
     
     const updateDomWithSubtractNumbers = () => {
-        result.innerHTML = sub(number1.value, number2.value);
+        result.innerHTML = `Your difference is: ${sub(number1.value, number2.value)}`;
     }
     const updateDomWithDivideNumbers = () => {
-        result.innerHTML = divide(number1.value, number2.value);
+        result.innerHTML = `Your quotient is: ${divide(number1.value, number2.value)}`;
     }
 
     addButton.addEventListener("click", updateDomWithAddedNumbers);
