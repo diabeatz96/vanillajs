@@ -16,7 +16,7 @@ document.querySelector("#app").innerHTML = `
 <button id="add" class="btn btn-primary mb-3">Add</button>
 <button id="multiply" class="btn btn-danger mb-3">Multiply</button>
 <button id="subtract" class="btn btn-info mb-3">Subtract</button>
-<button id="divide" class="btn btn-secondary mb-3">Divide</button>
+<button id="divide" class="btn btn-success mb-3">Divide</button>
 </div>
 
 <div class="mt-5 rounded border p-5 bg-secondary text-white">
